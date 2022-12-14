@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    padding: 0px 0;
+    background-color: rgb(1, 1, 8);
+    color: rgb(226, 236, 238);
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+
+header .topo{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.direita,
+.esquerda,
+.canais-atendimento {
+    max-width: 1280px;
+    width: 50%;
+    margin: 0 auto;
+ }
+
+section .esquerda,
+section .canais-atendimento
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icone-inicio {
+    height: 150px;
+    align-items: stretch;
+    padding: 0px;
+    border: 0px;
+
+}
+
+header nav li{
+    display: inline;
+    margin-left: 10px;
+    font-size: 15px;
+}
+header nav li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+body{
+    background-color: rgb(39, 32, 65);
+    color: aliceblue;
+    font-size: 16px;
+}
+
+section {
+    align-items: center;
+}
+
+section .esquerda img,
+section .direita img
+ {
+    align-items: center;
+    height: 350px;;
+}
+   
+
+section{
+    padding: 10px 0;
+}
+
+section h2{
+    margin-bottom: 8px;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+#contatos .canais-atendimento{
+    display: block;
+}
+
+
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+
+

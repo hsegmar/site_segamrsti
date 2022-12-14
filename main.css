@@ -111,5 +111,16 @@ form button {
     padding: 8px;
 }
 
+form button {
+    background-color: #a6a7ac;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #88888a;
+}
+
 
 
